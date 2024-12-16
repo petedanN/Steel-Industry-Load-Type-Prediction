@@ -9,3 +9,46 @@ This project uses machine learning to predict the **Load_Type** in a steel manuf
 - **Size**: 35,040 records with 11 columns.
 - **Features**: Includes energy consumption, power factors, CO2 emissions, and time-related data.
 - **Target**: 'Load_Type' (categorical variable, e.g., 'Light_Load').
+
+## Methodology
+**1. Exploratory Data Analysis (EDA)**
+
+  - Performed in-depth data exploration to understand feature distributions, correlations, and trends.
+
+**2. Data Preprocessing**
+
+ - Handled missing values and duplicates(if any).
+
+ - Encoded categorical variables.
+
+ - Standardized/normalized numerical features for consistency.
+
+**3. Feature Selection**
+
+ - Used SelectKBest to choose the most relevant features for the target variable.
+
+**4. Model Training**
+
+  Implemented and compared the following models:
+
+ - Logistic Regression
+
+ - Decision Tree
+  
+ - Support Vector Machine (SVM)
+
+ - Multi-Layer Perceptron (MLP)
+
+ - XGBoost (Best Model)
+
+**5. Hyperparameter Tuning**
+
+ - Performed grid search  for XGBoost.
+
+**6. Results**
+
+ - Accuracy: 91%
+
+**7. Deployment**
+
+ - The trained XGBoost model and preprocessing steps were saved as a pipeline in "**xgboost_pipeline.pkl.**"
