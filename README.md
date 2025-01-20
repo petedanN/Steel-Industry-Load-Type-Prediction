@@ -47,7 +47,7 @@ This project uses machine learning to predict the **Load_Type** in a steel manuf
 
 **6. Results**
 
- - Accuracy: 91%
+ - Accuracy: 90%
 
 **7. Deployment**
 
